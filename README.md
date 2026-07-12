@@ -1,16 +1,26 @@
-# Selam! Ben [Adın / Kullanıcı Adın] 👋
+# Hi there, I'm Mert 👋
 
-Bilgisayar Mühendisliği öğrencisiyim. Sistem programlama, düşük seviyeli (low-level) yazılımlar, otomasyon araçları ve gömülü sistemler üzerine kendimi geliştirmeye odaklanıyorum. Aynı zamanda üniversitem bünyesindeki yazılım/teknoloji kulübümüzde topluluk liderliği yapıyor ve çeşitli mühendislik projeleri/yarışmaları koordine ediyorum.
-
-### 🚀 Odak Alanlarım & Nelerle Uğraşıyorum?
-- 💻 C ve C++ ile düşük seviyeli yazılım geliştirme, bellek yönetimi ve sistem mimarileri.
-- 🐍 Python kullanarak veri yapıları, simülasyonlar ve üretkenlik araçları geliştirme.
-- 🐧 Linux ortamında Bash betikleri yazma, Git entegrasyonları ve geliştirici araçları optimizasyonu.
-- 📚 Akademik araştırmalar, proje raporlamaları ve gelecek dönem akademik hedefler.
+I am a Computer Engineering student and a tech community leader with a deep interest in systems programming, low-level development, and automation tools. I enjoy exploring the intersection of software and hardware, optimizing workflows, and building functional projects from scratch.
 
 ---
 
-### 🛠️ Teknolojiler ve Araçlar
+### 🚀 What I Do
+- 💻 Low-level development and system architectures using **C** and **C++**.
+- 🐍 Building custom automation, simulations, and productivity tools with **Python**.
+- 🐧 Scripting, environment optimization, and development workflows in **Linux/Bash**.
+- 👥 Leading tech communities, coordinating engineering teams, and managing projects.
+
+---
+
+### 🕹️ Play Tetris With My Commits!
+
+Yes, you read that right! You can use my actual GitHub contribution calendar as a Tetris board and play a game with it. Click the button below to start falling blocks over my commit history:
+
+👉 **[Play Gitris with my profile!](https://grubersjoe.github.io/gitris/?user=YOUR_USERNAME)** 🚀
+
+---
+
+### 🛠️ Tech Stack & Tools
 
 <p align="left">
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" alt="C" />
@@ -23,15 +33,6 @@ Bilgisayar Mühendisliği öğrencisiyim. Sistem programlama, düşük seviyeli 
 
 ---
 
-### 📊 GitHub İstatistiklerim
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=KULLANICI_ADIN&show_icons=true&theme=radial&hide_border=true" alt="GitHub Stats" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KULLANICI_ADIN&layout=compact&theme=radial&hide_border=true" alt="Top Langs" height="180" />
-</p>
-
----
-
-### 📫 Bana Ulaşın
-- 💼 LinkedIn: [LinkedIn Profil Linkin](https://linkedin.com)
-- 📧 E-posta: [E-posta Adresin]
+### 📫 Connect With Me
+- 💼 LinkedIn: [Your LinkedIn Profile]
+- 📧 Email: [Your Email Address]
