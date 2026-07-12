@@ -16,7 +16,7 @@ I am a Computer Engineering student and a tech community leader with a deep inte
 
 Yes, you read that right! You can use my actual GitHub contribution calendar as a Tetris board and play a game with it. Click the button below to start falling blocks over my commit history:
 
-👉 **[Play Gitris with my profile!](https://grubersjoe.github.io/gitris/?user=Achexus)** 🚀
+👉 **[Play Gitris with my profile!](https://grubersjoe.github.io/gitris/?user=achexus)** 🚀
 
 ---
 
