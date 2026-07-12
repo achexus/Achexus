@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="tetris.gif" alt="Self-playing Tetris" width="600" />
+  <img src="https://raw.githubusercontent.com/Achexus/Achexus/output/github-contribution-grid-snake.svg" alt="Github Snake" />
 </p>
