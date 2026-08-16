@@ -221,7 +221,7 @@
 <text x="450" y="75" class="text-neon text-info">STREAK       : 2 DAYS</text>
 <text x="450" y="95" class="text-neon text-info">STATUS       : 1 CLEARED / 0 INVADED</text>
 <rect x="25" y="115" width="930" height="30" class="intel-panel" />
-<text x="35" y="135" class="text-neon text-info">TODAY INTEL | INCOMING ZOMBIES: 4 | ELIMINATED: 14 | STATUS: <tspan class="text-status">SECURE (CLEARED)</tspan></text>
+<text x="35" y="135" class="text-neon text-info">TODAY INTEL | INCOMING ZOMBIES: 4 | ELIMINATED: 15 | STATUS: <tspan class="text-status">SECURE (CLEARED)</tspan></text>
 <rect x="25" y="165" width="20" height="20" class="past-0" />
 <rect x="25" y="189" width="20" height="20" class="past-0" />
 <rect x="25" y="213" width="20" height="20" class="past-0" />
