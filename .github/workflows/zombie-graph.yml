@@ -2,11 +2,11 @@ name: Generate Zombie Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Her gece yarısı haritayı günceller
-  workflow_dispatch:    # Manuel tetikleme butonu
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 permissions:
-  contents: write       # Botun README reposuna SVG'yi kaydetmesi için izin
+  contents: write
 
 jobs:
   build:
@@ -15,7 +15,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         
-      # KENDI YAZDIĞIN ACTION'I ÇAĞIRIYORSUN!
       - name: Generate Zombie Survival Graph
         uses: achexus/github-zombie-graph@main
         with:
@@ -26,6 +25,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add zombi-grafik.svg
+          git add zombie-graph.svg
           git commit -m "update: Daily Zombie Survival Intel" || echo "No changes to commit"
           git push
