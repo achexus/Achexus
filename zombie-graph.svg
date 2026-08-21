@@ -216,12 +216,12 @@
 <line x1="0" y1="732" x2="980" y2="732" class="scanline" />
 <line x1="0" y1="736" x2="980" y2="736" class="scanline" />
 <text x="25" y="40" class="text-neon text-title">ACHEXUS SURVIVAL SYSTEM</text>
-<text x="25" y="75" class="text-neon text-info">SURVIVAL DAY : 5</text>
+<text x="25" y="75" class="text-neon text-info">SURVIVAL DAY : 6</text>
 <text x="25" y="95" class="text-neon text-info">RANK         : LOST CIVILIAN</text>
 <text x="450" y="75" class="text-neon text-info">STREAK       : 0 DAYS</text>
-<text x="450" y="95" class="text-neon text-info">STATUS       : 3 CLEARED / 2 INVADED</text>
+<text x="450" y="95" class="text-neon text-info">STATUS       : 3 CLEARED / 3 INVADED</text>
 <rect x="25" y="115" width="930" height="30" class="intel-panel" />
-<text x="35" y="135" class="text-neon text-info">TODAY INTEL | INCOMING ZOMBIES: 4 | ELIMINATED: 0 | STATUS: <tspan class="text-status">CRITICAL (EN ROUTE)</tspan></text>
+<text x="35" y="135" class="text-neon text-info">TODAY INTEL | INCOMING ZOMBIES: 3 | ELIMINATED: 0 | STATUS: <tspan class="text-status">CRITICAL (EN ROUTE)</tspan></text>
 <rect x="25" y="165" width="20" height="20" class="past-0" />
 <rect x="25" y="189" width="20" height="20" class="past-0" />
 <rect x="25" y="213" width="20" height="20" class="past-0" />
@@ -590,8 +590,8 @@
 <rect x="625" y="357" width="20" height="20" class="game-survived-3" />
 <rect x="625" y="381" width="20" height="20" class="game-invaded-2" />
 <rect x="625" y="405" width="20" height="20" class="game-invaded-2" />
-<rect x="625" y="429" width="20" height="20" class="game-invaded-2 current-day" />
-<rect x="625" y="453" width="20" height="20" class="fog-of-war" />
+<rect x="625" y="429" width="20" height="20" class="game-invaded-2" />
+<rect x="625" y="453" width="20" height="20" class="game-invaded-2 current-day" />
 <rect x="625" y="477" width="20" height="20" class="fog-of-war" />
 <rect x="649" y="333" width="20" height="20" class="fog-of-war" />
 <rect x="649" y="357" width="20" height="20" class="fog-of-war" />
@@ -656,10 +656,6 @@
             <animate attributeName="opacity" values="0;1;0" dur="3s" begin="1.4s" repeatCount="indefinite" />
         </circle>
         
-        <circle cx="867.5" cy="407" r="4" fill="#ff003c">
-            <animate attributeName="opacity" values="0;1;0" dur="3s" begin="2.0999999999999996s" repeatCount="indefinite" />
-        </circle>
-        
     <text x="25" y="525" class="text-neon text-medal">ACHIEVEMENTS &amp; MEDALS [TACTICAL SLOTS]</text>
 <rect x="25" y="540" width="200" height="45" rx="3" ry="3" class="box-medal-earned" />
 <text x="35" y="558" class="text-neon text-medal">◆ ROOKIE</text>
@@ -675,8 +671,8 @@
 <text x="710" y="575" class="text-dim text-medal">[LOCKED: 100]</text>
 
         <text y="640" class="text-neon text-info">
-            <animate attributeName="x" from="980" to="-4192" dur="30s" repeatCount="indefinite" />
-            RADAR CONTACT ON THE MOVE. WE NEED BACKUP AT THE NEXT CROSSROAD. /// SQUAD EN ROUTE. MULTIPLE BOGEYS DETECTED ON SCANNERS. /// CLOSE CALL ON 2026-08-15. PERIMETER BARELY SECURED. /// CLOSE CALL ON 2026-08-16. PERIMETER BARELY SECURED. /// CLOSE CALL ON 2026-08-17. PERIMETER BARELY SECURED. /// RADIO SILENCE ON 2026-08-18. SECTOR ASSUMED LOST. /// NO DEFENSIVE ACTION TAKEN ON 2026-08-19. WALKERS ROAM FREE. /// RADIO SILENCE ON 2026-08-20. SECTOR ASSUMED LOST. /// SQUAD EN ROUTE. MULTIPLE BOGEYS DETECTED ON SCANNERS. ///
+            <animate attributeName="x" from="980" to="-4576" dur="30s" repeatCount="indefinite" />
+            ETA 5 MINUTES. KEEP WEAPONS HOT AND EYES PEELED. /// SQUAD EN ROUTE. MULTIPLE BOGEYS DETECTED ON SCANNERS. /// CLOSE CALL ON 2026-08-15. PERIMETER BARELY SECURED. /// CLOSE CALL ON 2026-08-16. PERIMETER BARELY SECURED. /// CLOSE CALL ON 2026-08-17. PERIMETER BARELY SECURED. /// RADIO SILENCE ON 2026-08-18. SECTOR ASSUMED LOST. /// NO DEFENSIVE ACTION TAKEN ON 2026-08-19. WALKERS ROAM FREE. /// RADIO SILENCE ON 2026-08-20. SECTOR ASSUMED LOST. /// NO DEFENSIVE ACTION TAKEN ON 2026-08-21. WALKERS ROAM FREE. /// SQUAD EN ROUTE. MULTIPLE BOGEYS DETECTED ON SCANNERS. ///
         </text>
     </g>
     </svg>
