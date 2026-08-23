@@ -15,7 +15,7 @@
         .text-title { font-size: 22px; }
         .text-info { font-size: 14px; }
         .text-medal { font-size: 12px; }
-        .text-status { fill: #ff8c00; font-family: 'Courier New', Courier, monospace; font-weight: bold; font-size: 14px; }
+        .text-status { fill: #ff003c; font-family: 'Courier New', Courier, monospace; font-weight: bold; font-size: 14px; }
         .box-medal-earned { fill: rgba(57, 255, 20, 0.05); stroke: #39ff14; stroke-width: 1; }
         .box-medal-locked { fill: transparent; stroke: #1a4d1a; stroke-width: 1; stroke-dasharray: 4; }
         .intel-panel { fill: rgba(13, 17, 23, 0.8); stroke: #1a4d1a; stroke-width: 1; rx: 4; ry: 4; }
@@ -244,11 +244,11 @@
 <line x1="0" y1="736" x2="980" y2="736" class="scanline" />
 <text x="25" y="40" class="text-neon text-title">ACHEXUS SURVIVAL SYSTEM</text>
 <text x="25" y="75" class="text-neon text-info">SURVIVAL DAY : 0</text>
-<text x="25" y="95" class="text-neon text-info">RANK         : UNRANKED (LVL 1)</text>
-<text x="450" y="75" class="text-neon text-info">TOTAL XP     : 2 XP</text>
+<text x="25" y="95" class="text-neon text-info">RANK         : UNRANKED (LVL 0)</text>
+<text x="450" y="75" class="text-neon text-info">TOTAL XP     : 0 XP</text>
 <text x="450" y="95" class="text-neon text-info">STATUS       : 0 CLEARED / 0 INVADED</text>
 <rect x="25" y="115" width="930" height="30" class="intel-panel" />
-<text x="35" y="135" class="text-neon text-info">TODAY INTEL | INCOMING ZOMBIES: 4 | ELIMINATED: 2 | STATUS: <tspan class="text-status">BREACHED (ENGAGING)</tspan></text>
+<text x="35" y="135" class="text-neon text-info">TODAY INTEL | INCOMING ZOMBIES: 2 | ELIMINATED: 0 | STATUS: <tspan class="text-status">CRITICAL (EN ROUTE)</tspan></text>
 <rect x="25" y="165" width="20" height="20" class="past-0" />
 <rect x="25" y="189" width="20" height="20" class="past-0" />
 <rect x="25" y="213" width="20" height="20" class="past-0" />
@@ -281,24 +281,24 @@
 <rect x="121" y="189" width="20" height="20" class="past-0" />
 <rect x="121" y="213" width="20" height="20" class="past-0" />
 <rect x="121" y="237" width="20" height="20" class="past-0" />
-<rect x="121" y="261" width="20" height="20" class="past-0" />
+<rect x="121" y="261" width="20" height="20" class="past-1" />
 <rect x="121" y="285" width="20" height="20" class="past-0" />
 <rect x="121" y="309" width="20" height="20" class="past-0" />
 <rect x="145" y="165" width="20" height="20" class="past-0" />
 <rect x="145" y="189" width="20" height="20" class="past-0" />
 <rect x="145" y="213" width="20" height="20" class="past-0" />
 <rect x="145" y="237" width="20" height="20" class="past-0" />
-<rect x="145" y="261" width="20" height="20" class="past-1" />
-<rect x="145" y="285" width="20" height="20" class="past-0" />
-<rect x="145" y="309" width="20" height="20" class="past-0" />
-<rect x="169" y="165" width="20" height="20" class="past-0" />
+<rect x="145" y="261" width="20" height="20" class="past-0" />
+<rect x="145" y="285" width="20" height="20" class="past-1" />
+<rect x="145" y="309" width="20" height="20" class="past-1" />
+<rect x="169" y="165" width="20" height="20" class="past-1" />
 <rect x="169" y="189" width="20" height="20" class="past-0" />
 <rect x="169" y="213" width="20" height="20" class="past-0" />
 <rect x="169" y="237" width="20" height="20" class="past-0" />
 <rect x="169" y="261" width="20" height="20" class="past-0" />
-<rect x="169" y="285" width="20" height="20" class="past-1" />
-<rect x="169" y="309" width="20" height="20" class="past-1" />
-<rect x="193" y="165" width="20" height="20" class="past-1" />
+<rect x="169" y="285" width="20" height="20" class="past-0" />
+<rect x="169" y="309" width="20" height="20" class="past-0" />
+<rect x="193" y="165" width="20" height="20" class="past-0" />
 <rect x="193" y="189" width="20" height="20" class="past-0" />
 <rect x="193" y="213" width="20" height="20" class="past-0" />
 <rect x="193" y="237" width="20" height="20" class="past-0" />
@@ -419,30 +419,30 @@
 <rect x="577" y="309" width="20" height="20" class="past-0" />
 <rect x="601" y="165" width="20" height="20" class="past-0" />
 <rect x="601" y="189" width="20" height="20" class="past-0" />
-<rect x="601" y="213" width="20" height="20" class="past-0" />
+<rect x="601" y="213" width="20" height="20" class="past-2" />
 <rect x="601" y="237" width="20" height="20" class="past-0" />
-<rect x="601" y="261" width="20" height="20" class="past-0" />
-<rect x="601" y="285" width="20" height="20" class="past-0" />
+<rect x="601" y="261" width="20" height="20" class="past-1" />
+<rect x="601" y="285" width="20" height="20" class="past-1" />
 <rect x="601" y="309" width="20" height="20" class="past-0" />
 <rect x="625" y="165" width="20" height="20" class="past-0" />
 <rect x="625" y="189" width="20" height="20" class="past-0" />
-<rect x="625" y="213" width="20" height="20" class="past-2" />
+<rect x="625" y="213" width="20" height="20" class="past-0" />
 <rect x="625" y="237" width="20" height="20" class="past-0" />
-<rect x="625" y="261" width="20" height="20" class="past-1" />
-<rect x="625" y="285" width="20" height="20" class="past-1" />
+<rect x="625" y="261" width="20" height="20" class="past-0" />
+<rect x="625" y="285" width="20" height="20" class="past-0" />
 <rect x="625" y="309" width="20" height="20" class="past-0" />
 <rect x="649" y="165" width="20" height="20" class="past-0" />
 <rect x="649" y="189" width="20" height="20" class="past-0" />
 <rect x="649" y="213" width="20" height="20" class="past-0" />
 <rect x="649" y="237" width="20" height="20" class="past-0" />
-<rect x="649" y="261" width="20" height="20" class="past-0" />
+<rect x="649" y="261" width="20" height="20" class="past-1" />
 <rect x="649" y="285" width="20" height="20" class="past-0" />
 <rect x="649" y="309" width="20" height="20" class="past-0" />
 <rect x="25" y="333" width="20" height="20" class="past-0" />
 <rect x="25" y="357" width="20" height="20" class="past-0" />
 <rect x="25" y="381" width="20" height="20" class="past-0" />
 <rect x="25" y="405" width="20" height="20" class="past-0" />
-<rect x="25" y="429" width="20" height="20" class="past-1" />
+<rect x="25" y="429" width="20" height="20" class="past-0" />
 <rect x="25" y="453" width="20" height="20" class="past-0" />
 <rect x="25" y="477" width="20" height="20" class="past-0" />
 <rect x="49" y="333" width="20" height="20" class="past-0" />
@@ -519,24 +519,24 @@
 <rect x="289" y="357" width="20" height="20" class="past-0" />
 <rect x="289" y="381" width="20" height="20" class="past-0" />
 <rect x="289" y="405" width="20" height="20" class="past-0" />
-<rect x="289" y="429" width="20" height="20" class="past-0" />
+<rect x="289" y="429" width="20" height="20" class="past-1" />
 <rect x="289" y="453" width="20" height="20" class="past-0" />
-<rect x="289" y="477" width="20" height="20" class="past-0" />
+<rect x="289" y="477" width="20" height="20" class="past-1" />
 <rect x="313" y="333" width="20" height="20" class="past-0" />
-<rect x="313" y="357" width="20" height="20" class="past-0" />
-<rect x="313" y="381" width="20" height="20" class="past-0" />
-<rect x="313" y="405" width="20" height="20" class="past-0" />
-<rect x="313" y="429" width="20" height="20" class="past-1" />
+<rect x="313" y="357" width="20" height="20" class="past-1" />
+<rect x="313" y="381" width="20" height="20" class="past-3" />
+<rect x="313" y="405" width="20" height="20" class="past-1" />
+<rect x="313" y="429" width="20" height="20" class="past-0" />
 <rect x="313" y="453" width="20" height="20" class="past-0" />
-<rect x="313" y="477" width="20" height="20" class="past-1" />
-<rect x="337" y="333" width="20" height="20" class="past-0" />
-<rect x="337" y="357" width="20" height="20" class="past-1" />
-<rect x="337" y="381" width="20" height="20" class="past-3" />
-<rect x="337" y="405" width="20" height="20" class="past-1" />
+<rect x="313" y="477" width="20" height="20" class="past-0" />
+<rect x="337" y="333" width="20" height="20" class="past-1" />
+<rect x="337" y="357" width="20" height="20" class="past-0" />
+<rect x="337" y="381" width="20" height="20" class="past-0" />
+<rect x="337" y="405" width="20" height="20" class="past-0" />
 <rect x="337" y="429" width="20" height="20" class="past-0" />
 <rect x="337" y="453" width="20" height="20" class="past-0" />
 <rect x="337" y="477" width="20" height="20" class="past-0" />
-<rect x="361" y="333" width="20" height="20" class="past-1" />
+<rect x="361" y="333" width="20" height="20" class="past-0" />
 <rect x="361" y="357" width="20" height="20" class="past-0" />
 <rect x="361" y="381" width="20" height="20" class="past-0" />
 <rect x="361" y="405" width="20" height="20" class="past-0" />
@@ -571,55 +571,55 @@
 <rect x="457" y="429" width="20" height="20" class="past-0" />
 <rect x="457" y="453" width="20" height="20" class="past-0" />
 <rect x="457" y="477" width="20" height="20" class="past-0" />
-<rect x="481" y="333" width="20" height="20" class="past-0" />
+<rect x="481" y="333" width="20" height="20" class="past-4" />
 <rect x="481" y="357" width="20" height="20" class="past-0" />
 <rect x="481" y="381" width="20" height="20" class="past-0" />
-<rect x="481" y="405" width="20" height="20" class="past-0" />
-<rect x="481" y="429" width="20" height="20" class="past-0" />
-<rect x="481" y="453" width="20" height="20" class="past-0" />
+<rect x="481" y="405" width="20" height="20" class="past-4" />
+<rect x="481" y="429" width="20" height="20" class="past-1" />
+<rect x="481" y="453" width="20" height="20" class="past-1" />
 <rect x="481" y="477" width="20" height="20" class="past-0" />
-<rect x="505" y="333" width="20" height="20" class="past-4" />
-<rect x="505" y="357" width="20" height="20" class="past-0" />
-<rect x="505" y="381" width="20" height="20" class="past-0" />
-<rect x="505" y="405" width="20" height="20" class="past-4" />
+<rect x="505" y="333" width="20" height="20" class="past-3" />
+<rect x="505" y="357" width="20" height="20" class="past-1" />
+<rect x="505" y="381" width="20" height="20" class="past-2" />
+<rect x="505" y="405" width="20" height="20" class="past-2" />
 <rect x="505" y="429" width="20" height="20" class="past-1" />
-<rect x="505" y="453" width="20" height="20" class="past-1" />
-<rect x="505" y="477" width="20" height="20" class="past-0" />
-<rect x="529" y="333" width="20" height="20" class="past-3" />
+<rect x="505" y="453" width="20" height="20" class="past-2" />
+<rect x="505" y="477" width="20" height="20" class="past-1" />
+<rect x="529" y="333" width="20" height="20" class="past-2" />
 <rect x="529" y="357" width="20" height="20" class="past-1" />
-<rect x="529" y="381" width="20" height="20" class="past-2" />
-<rect x="529" y="405" width="20" height="20" class="past-2" />
-<rect x="529" y="429" width="20" height="20" class="past-1" />
-<rect x="529" y="453" width="20" height="20" class="past-2" />
-<rect x="529" y="477" width="20" height="20" class="past-1" />
-<rect x="553" y="333" width="20" height="20" class="past-2" />
-<rect x="553" y="357" width="20" height="20" class="past-1" />
-<rect x="553" y="381" width="20" height="20" class="past-1" />
-<rect x="553" y="405" width="20" height="20" class="past-0" />
-<rect x="553" y="429" width="20" height="20" class="past-0" />
-<rect x="553" y="453" width="20" height="20" class="past-0" />
-<rect x="553" y="477" width="20" height="20" class="past-0" />
+<rect x="529" y="381" width="20" height="20" class="past-1" />
+<rect x="529" y="405" width="20" height="20" class="past-0" />
+<rect x="529" y="429" width="20" height="20" class="past-0" />
+<rect x="529" y="453" width="20" height="20" class="past-0" />
+<rect x="529" y="477" width="20" height="20" class="past-0" />
+<rect x="553" y="333" width="20" height="20" class="past-0" />
+<rect x="553" y="357" width="20" height="20" class="past-0" />
+<rect x="553" y="381" width="20" height="20" class="past-0" />
+<rect x="553" y="405" width="20" height="20" class="past-1" />
+<rect x="553" y="429" width="20" height="20" class="past-1" />
+<rect x="553" y="453" width="20" height="20" class="past-3" />
+<rect x="553" y="477" width="20" height="20" class="past-1" />
 <rect x="577" y="333" width="20" height="20" class="past-0" />
-<rect x="577" y="357" width="20" height="20" class="past-0" />
+<rect x="577" y="357" width="20" height="20" class="past-3" />
 <rect x="577" y="381" width="20" height="20" class="past-0" />
-<rect x="577" y="405" width="20" height="20" class="past-1" />
+<rect x="577" y="405" width="20" height="20" class="past-0" />
 <rect x="577" y="429" width="20" height="20" class="past-1" />
-<rect x="577" y="453" width="20" height="20" class="past-3" />
-<rect x="577" y="477" width="20" height="20" class="past-1" />
-<rect x="601" y="333" width="20" height="20" class="past-0" />
-<rect x="601" y="357" width="20" height="20" class="past-3" />
+<rect x="577" y="453" width="20" height="20" class="past-1" />
+<rect x="577" y="477" width="20" height="20" class="past-4" />
+<rect x="601" y="333" width="20" height="20" class="past-4" />
+<rect x="601" y="357" width="20" height="20" class="past-4" />
 <rect x="601" y="381" width="20" height="20" class="past-0" />
 <rect x="601" y="405" width="20" height="20" class="past-0" />
-<rect x="601" y="429" width="20" height="20" class="past-1" />
-<rect x="601" y="453" width="20" height="20" class="past-1" />
-<rect x="601" y="477" width="20" height="20" class="past-4" />
-<rect x="625" y="333" width="20" height="20" class="past-4" />
-<rect x="625" y="357" width="20" height="20" class="past-4" />
-<rect x="625" y="381" width="20" height="20" class="past-0" />
-<rect x="625" y="405" width="20" height="20" class="past-0" />
-<rect x="625" y="429" width="20" height="20" class="past-0" />
-<rect x="625" y="453" width="20" height="20" class="past-0" />
-<rect x="625" y="477" width="20" height="20" class="game-invaded-1 current-day" />
+<rect x="601" y="429" width="20" height="20" class="past-0" />
+<rect x="601" y="453" width="20" height="20" class="past-0" />
+<rect x="601" y="477" width="20" height="20" class="past-1" />
+<rect x="625" y="333" width="20" height="20" class="game-invaded-2 current-day" />
+<rect x="625" y="357" width="20" height="20" class="fog-of-war" />
+<rect x="625" y="381" width="20" height="20" class="fog-of-war" />
+<rect x="625" y="405" width="20" height="20" class="fog-of-war" />
+<rect x="625" y="429" width="20" height="20" class="fog-of-war" />
+<rect x="625" y="453" width="20" height="20" class="fog-of-war" />
+<rect x="625" y="477" width="20" height="20" class="fog-of-war" />
 <rect x="649" y="333" width="20" height="20" class="fog-of-war" />
 <rect x="649" y="357" width="20" height="20" class="fog-of-war" />
 <rect x="649" y="381" width="20" height="20" class="fog-of-war" />
@@ -633,42 +633,31 @@
     </circle>
     <text x="718" y="189" class="text-neon text-medal">LIVE</text>
     
-        <rect x="700" y="205" width="245" height="114" fill="#050510" rx="4" ry="4" />
-        <g>
-            <animateTransform attributeName="transform" type="translate" values="0,0; 0,-12; 0,0" dur="1.5s" repeatCount="indefinite" />
-            <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.7;0.8;1" dur="4s" repeatCount="indefinite" />
-            <circle cx="930" cy="265" r="15" fill="#FF0000" opacity="0.6">
-                 <animate attributeName="cx" values="930;730" dur="4s" repeatCount="indefinite" />
-            </circle>
-            <circle cx="930" cy="265" r="9" fill="#FF8C00" opacity="0.9">
-                 <animate attributeName="cx" values="930;730" dur="4s" repeatCount="indefinite" />
-            </circle>
-            <circle cx="930" cy="265" r="4" fill="#FFFFFF" opacity="1">
-                 <animate attributeName="cx" values="930;730" dur="4s" repeatCount="indefinite" />
-            </circle>
+        <clipPath id="tire_clip_cam">
+            <rect x="700" y="205" width="245" height="114" rx="4" />
+        </clipPath>
+        
+        <g clip-path="url(#tire_clip_cam)">
+            <rect x="700" y="205" width="245" height="114" fill="#0a0a0f" />
+            <line x1="700" y1="310" x2="945" y2="310" stroke="#1a4d1a" stroke-dasharray="35, 25" stroke-width="4">
+                <animate attributeName="stroke-dashoffset" from="60" to="0" dur="0.15s" repeatCount="indefinite" />
+            </line>
+            <g>
+                <animateTransform attributeName="transform" type="translate" values="0,0; 0,4; 0,0" dur="0.25s" repeatCount="indefinite" />
+                <g>
+                    <animateTransform attributeName="transform" type="rotate" from="0 822.5 205" to="360 822.5 205" dur="0.8s" repeatCount="indefinite" />
+                    <circle cx="822.5" cy="205" r="105" fill="#050a05" stroke="#1a2332" stroke-width="8" />
+                    <circle cx="822.5" cy="205" r="100" fill="none" stroke="#000000" stroke-width="10" stroke-dasharray="18, 15" />
+                    <circle cx="822.5" cy="205" r="65" fill="#1c3242" stroke="#0d1117" stroke-width="4" />
+                    <line x1="822.5" y1="140" x2="822.5" y2="270" stroke="#0d1117" stroke-width="8" />
+                    <line x1="757.5" y1="205" x2="887.5" y2="205" stroke="#0d1117" stroke-width="8" />
+                    <line x1="777.5" y1="160" x2="867.5" y2="250" stroke="#0d1117" stroke-width="8" />
+                    <line x1="777.5" y1="250" x2="867.5" y2="160" stroke="#0d1117" stroke-width="8" />
+                    <circle cx="822.5" cy="205" r="18" fill="#0d1117" />
+                </g>
+            </g>
         </g>
-        <g>
-            <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,0" dur="1.2s" repeatCount="indefinite" />
-            <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.8;0.9;1" dur="5s" repeatCount="indefinite" />
-            <circle cx="910" cy="295" r="18" fill="#FF0000" opacity="0.5">
-                 <animate attributeName="cx" values="910;730" dur="5s" repeatCount="indefinite" />
-            </circle>
-            <circle cx="910" cy="295" r="11" fill="#FFD700" opacity="0.8">
-                 <animate attributeName="cx" values="910;730" dur="5s" repeatCount="indefinite" />
-            </circle>
-            <circle cx="910" cy="295" r="5" fill="#FFFFFF" opacity="1">
-                 <animate attributeName="cx" values="910;730" dur="5s" repeatCount="indefinite" />
-            </circle>
-        </g>
-        <g stroke="#39ff14" stroke-width="1.5">
-            <animateTransform attributeName="transform" type="translate" values="0,0; 30,8; -20,-10; 0,0" dur="4s" repeatCount="indefinite" />
-            <circle cx="822.5" cy="260" r="45" fill="rgba(57,255,20,0.05)" />
-            <line x1="762.5" y1="260" x2="882.5" y2="260" />
-            <line x1="822.5" y1="200" x2="822.5" y2="320" />
-            <circle cx="822.5" cy="260" r="2" fill="#39ff14" stroke="none">
-                <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
-            </circle>
-        </g>
+        <rect x="700" y="205" width="245" height="114" fill="none" stroke="#1a4d1a" stroke-width="1" rx="4" />
         
     <rect x="690" y="337" width="265" height="164" class="intel-panel" />
     <text x="705" y="362" class="text-neon text-medal">LOCAL RADAR [50M RADIUS]</text>
@@ -704,53 +693,13 @@
 <text x="710" y="558" class="text-dim text-medal">🛡️ VANGUARD</text>
 <text x="710" y="575" class="text-dim text-medal">[LOCKED: LVL 75]</text>
 <text x="25" y="625" class="text-neon text-info">LEVEL PROGRESS</text>
-<text x="951" y="625" class="text-neon text-info" text-anchor="end">1 / 2 XP TO LVL 2</text>
+<text x="951" y="625" class="text-neon text-info" text-anchor="end">0 / 1 XP TO LVL 1</text>
 <rect x="25" y="632" width="926" height="20" fill="transparent" stroke="#808080" stroke-width="1" />
 <rect x="26" y="633" width="924" height="18" fill="none" stroke="#e0e0e0" stroke-width="1" />
-<rect x="27" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="39" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="51" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="63" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="75" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="87" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="99" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="111" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="123" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="135" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="147" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="159" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="171" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="183" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="195" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="207" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="219" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="231" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="243" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="255" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="267" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="279" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="291" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="303" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="315" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="327" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="339" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="351" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="363" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="375" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="387" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="399" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="411" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="423" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="435" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="447" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="459" y="635" width="10" height="14" fill="url(#xp-green)" />
-<rect x="471" y="635" width="10" height="14" fill="url(#xp-green)">
-    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
-</rect>
 
         <text y="685" class="text-neon text-info">
-            <animate attributeName="x" from="980" to="-1856" dur="30s" repeatCount="indefinite" />
-            MULTIPLE HOSTILES DOWN, BUT MORE ARE COMING FROM THE WOODS! /// RELOADING! COVERING FIRE NEEDED AT THE FLANK! /// SECTOR 2026-08-22 OVERRUN. WE TOOK DOWN 2 BUT IT WAS NOT ENOUGH. /// RELOADING! COVERING FIRE NEEDED AT THE FLANK! ///
+            <animate attributeName="x" from="980" to="-1968" dur="30s" repeatCount="indefinite" />
+            RADAR CONTACT ON THE MOVE. WE NEED BACKUP AT THE NEXT CROSSROAD. /// MOVEMENT IN THE SHADOWS AHEAD. PROCEED WITH CAUTION. /// NO DEFENSIVE ACTION TAKEN ON 2026-08-23. WALKERS ROAM FREE. /// MOVEMENT IN THE SHADOWS AHEAD. PROCEED WITH CAUTION. ///
         </text>
     </g>
     </svg>
