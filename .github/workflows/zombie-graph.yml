@@ -9,16 +9,18 @@ on:
   workflow_dispatch: 
 
 jobs:
-  build:
+  update-graph:
     runs-on: ubuntu-latest
+    
+    # Exit code 128 hatasını çözen kritik izin ayarı
     permissions:
       contents: write
 
     steps:
+      # Node.js uyarısını çözmek için v4 sürümüne güncellendi
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Kendi eklentimizi çalıştırıyoruz
       - name: Generate Zombie Survival Graph
         uses: achexus/github-zombie-graph@main
         with:
