@@ -1,32 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="980" height="740">
     <style>
         .bg { fill: transparent; }
-        .scanline { stroke: rgba(255, 165, 0, 0.08); stroke-width: 1; }
-        .text-neon { fill: #ffa500; font-family: 'Courier New', Courier, monospace; font-weight: bold; }
-        .text-dim { fill: #4d3800; font-family: 'Courier New', Courier, monospace; font-weight: bold; }
+        .scanline { stroke: rgba(255, 0, 255, 0.08); stroke-width: 1; }
+        .text-neon { fill: #ff00ff; font-family: 'Courier New', Courier, monospace; font-weight: bold; }
+        .text-dim { fill: #4a0060; font-family: 'Courier New', Courier, monospace; font-weight: bold; }
         .text-title { font-size: 22px; }
         .text-info { font-size: 14px; }
         .text-medal { font-size: 12px; }
-        .text-status { fill: #ffa500; font-family: 'Courier New', Courier, monospace; font-weight: bold; font-size: 14px; }
-        .box-medal-earned { fill: rgba(255, 165, 0, 0.15); stroke: #ffa500; stroke-width: 1; }
-        .box-medal-locked { fill: transparent; stroke: #4d3800; stroke-width: 1; stroke-dasharray: 4; }
-        .intel-panel { fill: rgba(10, 8, 0, 0.85); stroke: #4d3800; stroke-width: 1; rx: 4; ry: 4; }
-        .fog-of-war { fill: rgba(10, 8, 0, 0.85); stroke: #4d3800; stroke-width: 1; stroke-dasharray: 2; opacity: 0.8; }
+        .text-status { fill: #ff00ff; font-family: 'Courier New', Courier, monospace; font-weight: bold; font-size: 14px; }
+        .box-medal-earned { fill: rgba(255, 0, 255, 0.15); stroke: #ff00ff; stroke-width: 1; }
+        .box-medal-locked { fill: transparent; stroke: #4a0060; stroke-width: 1; stroke-dasharray: 4; }
+        .intel-panel { fill: rgba(10, 0, 20, 0.85); stroke: #6a0080; stroke-width: 1; rx: 4; ry: 4; }
+        .fog-of-war { fill: rgba(10, 0, 20, 0.85); stroke: #6a0080; stroke-width: 1; stroke-dasharray: 2; opacity: 0.8; }
         
-        .past-0 { fill: #0a0800; stroke: #261900; stroke-width: 1; rx: 2; ry: 2; }
-        .past-1 { fill: #1a1400; rx: 2; ry: 2; }
-        .past-2 { fill: #332800; rx: 2; ry: 2; }
-        .past-3 { fill: #4d3c00; rx: 2; ry: 2; }
-        .past-4 { fill: #665000; rx: 2; ry: 2; }
-        .game-survived-1 { fill: #664400; rx: 2; ry: 2; } 
-        .game-survived-2 { fill: #996600; rx: 2; ry: 2; } 
-        .game-survived-3 { fill: #cc8800; rx: 2; ry: 2; } 
-        .game-survived-4 { fill: #ffa500; rx: 2; ry: 2; } 
+        .past-0 { fill: #050008; stroke: #1a0030; stroke-width: 1; rx: 2; ry: 2; }
+        .past-1 { fill: #130020; rx: 2; ry: 2; }
+        .past-2 { fill: #220033; rx: 2; ry: 2; }
+        .past-3 { fill: #30004d; rx: 2; ry: 2; }
+        .past-4 { fill: #3f0066; rx: 2; ry: 2; }
+        .game-survived-1 { fill: #660066; rx: 2; ry: 2; } 
+        .game-survived-2 { fill: #990099; rx: 2; ry: 2; } 
+        .game-survived-3 { fill: #cc00cc; rx: 2; ry: 2; } 
+        .game-survived-4 { fill: #ff00ff; rx: 2; ry: 2; } 
         
-        .game-invaded-1 { fill: #4a1111; stroke: #8a2222; stroke-width: 1; rx: 2; ry: 2; }  
-        .game-invaded-2 { fill: #1a0505; rx: 2; ry: 2; }  
+        .game-invaded-1 { fill: #5e0020; stroke: #990040; stroke-width: 1; rx: 2; ry: 2; }  
+        .game-invaded-2 { fill: #20000a; rx: 2; ry: 2; }  
         
-        @keyframes pulse-beacon { 0% { fill-opacity: 1; stroke: #ffffff; stroke-width: 1px; } 50% { fill-opacity: 0.4; stroke: #ffa500; stroke-width: 3px; } 100% { fill-opacity: 1; stroke: #ffffff; stroke-width: 1px; } }
+        @keyframes pulse-beacon { 0% { fill-opacity: 1; stroke: #ffffff; stroke-width: 1px; } 50% { fill-opacity: 0.4; stroke: #ff00ff; stroke-width: 3px; } 100% { fill-opacity: 1; stroke: #ffffff; stroke-width: 1px; } }
         .current-day { animation: pulse-beacon 1.5s infinite; rx: 3; ry: 3; }
         
         @keyframes crt-flicker { 0% { opacity: 0.95; } 5% { opacity: 0.85; } 10% { opacity: 0.95; } 15% { opacity: 1.0; } 50% { opacity: 0.98; } 100% { opacity: 0.95; } }
@@ -220,7 +220,7 @@
 <line x1="0" y1="728" x2="980" y2="728" class="scanline" />
 <line x1="0" y1="732" x2="980" y2="732" class="scanline" />
 <line x1="0" y1="736" x2="980" y2="736" class="scanline" />
-<text x="25" y="40" class="text-neon text-title">ACHEXUS SURVIVAL SYSTEM [FALLOUT]</text>
+<text x="25" y="40" class="text-neon text-title">ACHEXUS SURVIVAL SYSTEM [CYBERPUNK]</text>
 <text x="25" y="75" class="text-neon text-info">SURVIVAL DAY : 6</text>
 <text x="25" y="95" class="text-neon text-info">RANK         : SCAVENGER (LVL 12)</text>
 <text x="450" y="75" class="text-neon text-info">TOTAL XP     : 82 XP</text>
@@ -606,48 +606,48 @@
 <rect x="649" y="453" width="20" height="20" class="fog-of-war" />
 <rect x="649" y="477" width="20" height="20" class="fog-of-war" />
 <rect x="690" y="165" width="265" height="164" class="intel-panel" />
-    <circle cx="708" cy="185" r="4" fill="#cc4400">
+    <circle cx="708" cy="185" r="4" fill="#ff0066">
         <animate attributeName="opacity" values="1;0;1" dur="1.5s" repeatCount="indefinite" />
     </circle>
     <text x="718" y="189" class="text-neon text-medal">LIVE</text>
     
-        <rect x="700" y="205" width="245" height="114" fill="#0a0800" rx="4" ry="4" />
-        <path d="M 700 235 L 945 235 M 700 270 L 945 270 M 700 305 L 945 305" stroke="#261900" stroke-width="4" />
-        <path d="M 750 205 L 750 319 M 820 205 L 820 319 M 890 205 L 890 319" stroke="#261900" stroke-width="4" />
+        <rect x="700" y="205" width="245" height="114" fill="#0a0010" rx="4" ry="4" />
+        <path d="M 700 235 L 945 235 M 700 270 L 945 270 M 700 305 L 945 305" stroke="#1a0030" stroke-width="4" />
+        <path d="M 750 205 L 750 319 M 820 205 L 820 319 M 890 205 L 890 319" stroke="#1a0030" stroke-width="4" />
         
-        <rect x="710" y="210" width="30" height="20" fill="#261900" />
-        <rect x="760" y="210" width="50" height="20" fill="#0d0900" />
-        <rect x="830" y="210" width="50" height="20" fill="#261900" />
-        <rect x="900" y="210" width="40" height="20" fill="#0d0900" />
+        <rect x="710" y="210" width="30" height="20" fill="#2a0040" />
+        <rect x="760" y="210" width="50" height="20" fill="#080010" />
+        <rect x="830" y="210" width="50" height="20" fill="#2a0040" />
+        <rect x="900" y="210" width="40" height="20" fill="#080010" />
         
-        <rect x="710" y="240" width="30" height="25" fill="#0d0900" />
-        <rect x="760" y="240" width="50" height="25" fill="#261900" />
-        <rect x="830" y="240" width="50" height="25" fill="#261900" />
-        <rect x="900" y="240" width="40" height="25" fill="#0d0900" />
+        <rect x="710" y="240" width="30" height="25" fill="#080010" />
+        <rect x="760" y="240" width="50" height="25" fill="#2a0040" />
+        <rect x="830" y="240" width="50" height="25" fill="#2a0040" />
+        <rect x="900" y="240" width="40" height="25" fill="#080010" />
         
-        <rect x="710" y="275" width="30" height="25" fill="#261900" />
-        <rect x="760" y="275" width="50" height="25" fill="#0d0900" />
+        <rect x="710" y="275" width="30" height="25" fill="#2a0040" />
+        <rect x="760" y="275" width="50" height="25" fill="#080010" />
         
-        <rect x="825" y="275" width="115" height="25" fill="rgba(255, 165, 0, 0.15)" stroke="#ffa500" stroke-width="1" />
-        <circle cx="840" cy="287" r="3" fill="#ffa500">
+        <rect x="825" y="275" width="115" height="25" fill="rgba(255, 0, 255, 0.15)" stroke="#ff00ff" stroke-width="1" />
+        <circle cx="840" cy="287" r="3" fill="#ff00ff">
             <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
         </circle>
         <text x="885" y="291" class="text-neon" font-size="11" text-anchor="middle">SAFE ZONE</text>
         
-        <line x1="700" y1="205" x2="700" y2="319" stroke="#ffa500" stroke-width="2" opacity="0.5">
+        <line x1="700" y1="205" x2="700" y2="319" stroke="#ff00ff" stroke-width="2" opacity="0.5">
             <animate attributeName="x1" values="700;945;700" dur="5s" repeatCount="indefinite" />
             <animate attributeName="x2" values="700;945;700" dur="5s" repeatCount="indefinite" />
         </line>
         
     <rect x="690" y="337" width="265" height="164" class="intel-panel" />
     <text x="705" y="362" class="text-neon text-medal">LOCAL RADAR [50M RADIUS]</text>
-    <circle cx="822.5" cy="432" r="55" stroke="#4d3800" stroke-width="1" fill="none" />
-    <circle cx="822.5" cy="432" r="35" stroke="#4d3800" stroke-width="1" fill="none" />
-    <circle cx="822.5" cy="432" r="15" stroke="#4d3800" stroke-width="1" fill="none" />
-    <line x1="822.5" y1="377" x2="822.5" y2="487" stroke="#4d3800" stroke-width="1" />
-    <line x1="767.5" y1="432" x2="877.5" y2="432" stroke="#4d3800" stroke-width="1" />
+    <circle cx="822.5" cy="432" r="55" stroke="#6a0080" stroke-width="1" fill="none" />
+    <circle cx="822.5" cy="432" r="35" stroke="#6a0080" stroke-width="1" fill="none" />
+    <circle cx="822.5" cy="432" r="15" stroke="#6a0080" stroke-width="1" fill="none" />
+    <line x1="822.5" y1="377" x2="822.5" y2="487" stroke="#6a0080" stroke-width="1" />
+    <line x1="767.5" y1="432" x2="877.5" y2="432" stroke="#6a0080" stroke-width="1" />
     <g>
-        <path d="M 822.5 432 L 822.5 377 A 55 55 0 0 1 877.5 432 Z" fill="rgba(255, 165, 0, 0.15)" />
+        <path d="M 822.5 432 L 822.5 377 A 55 55 0 0 1 877.5 432 Z" fill="rgba(255, 0, 255, 0.15)" />
         <animateTransform attributeName="transform" type="rotate" from="0 822.5 432" to="360 822.5 432" dur="3.5s" repeatCount="indefinite" />
     </g>
     
@@ -666,37 +666,37 @@
 <text x="710" y="575" class="text-dim text-medal">[LOCKED: LVL 75]</text>
 <text x="25" y="625" class="text-neon text-info">SYSTEM UPGRADE PROGRESS</text>
 <text x="951" y="625" class="text-neon text-info" text-anchor="end">4 / 13 XP TO LVL 13</text>
-<rect x="25" y="632" width="926" height="20" fill="none" stroke="#4d3800" stroke-width="1.5" />
-<rect x="27" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="39" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="51" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="63" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="75" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="87" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="99" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="111" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="123" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="135" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="147" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="159" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="171" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="183" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="195" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="207" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="219" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="231" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="243" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="255" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="267" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="279" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="291" y="635" width="10" height="14" fill="#ffa500" />
-<rect x="303" y="635" width="10" height="14" fill="#ffa500">
+<rect x="25" y="632" width="926" height="20" fill="none" stroke="#6a0080" stroke-width="1.5" />
+<rect x="27" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="39" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="51" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="63" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="75" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="87" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="99" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="111" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="123" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="135" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="147" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="159" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="171" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="183" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="195" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="207" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="219" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="231" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="243" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="255" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="267" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="279" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="291" y="635" width="10" height="14" fill="#ff00ff" />
+<rect x="303" y="635" width="10" height="14" fill="#ff00ff">
     <animate attributeName="opacity" values="1;0.2;1" dur="0.8s" repeatCount="indefinite" />
 </rect>
 
         <text y="685" class="text-neon text-info">
-            <animate attributeName="x" from="980" to="-7568" dur="47s" repeatCount="indefinite" />
-            NO DEFENSIVE ACTION TAKEN ON 2026-08-12. WALKERS ROAM FREE. /// MAYDAY! BARRICADES BREACHED ON 2026-08-13! /// CLOSE CALL ON 2026-08-14. PERIMETER BARELY SECURED. /// TARGET PRACTICE AT SECTOR 2026-08-15. OVERWHELMING FIREPOWER USED. /// THREAT NEUTRALIZED ON 2026-08-16. NO CASUALTIES REPORTED. /// THREAT NEUTRALIZED ON 2026-08-17. NO CASUALTIES REPORTED. /// RADIO SILENCE ON 2026-08-18. SECTOR ASSUMED LOST. /// NO DEFENSIVE ACTION TAKEN ON 2026-08-19. WALKERS ROAM FREE. /// NO DEFENSIVE ACTION TAKEN ON 2026-08-20. WALKERS ROAM FREE. /// RADIO SILENCE ON 2026-08-21. SECTOR ASSUMED LOST. /// HAND-TO-HAND COMBAT ON 2026-08-22. WE HOLD THE LINE. /// SECTOR 2026-08-23 OVERRUN. WE TOOK DOWN 2 BUT IT WAS NOT ENOUGH. /// CLOSE CALL ON 2026-08-24. PERIMETER BARELY SECURED. /// HAND-TO-HAND COMBAT ON 2026-08-25. WE HOLD THE LINE. /// CLOSE CALL ON 2026-08-26. PERIMETER BARELY SECURED. /// ALL HOSTILES NEUTRALIZED. PATROLLING THE BORDERS. ///
+            <animate attributeName="x" from="980" to="-7240" dur="45s" repeatCount="indefinite" />
+            RADIO SILENCE ON 2026-08-12. SECTOR ASSUMED LOST. /// MAYDAY! BARRICADES BREACHED ON 2026-08-13! /// HAND-TO-HAND COMBAT ON 2026-08-14. WE HOLD THE LINE. /// TARGET PRACTICE AT SECTOR 2026-08-15. OVERWHELMING FIREPOWER USED. /// THREAT NEUTRALIZED ON 2026-08-16. NO CASUALTIES REPORTED. /// THREAT NEUTRALIZED ON 2026-08-17. NO CASUALTIES REPORTED. /// RADIO SILENCE ON 2026-08-18. SECTOR ASSUMED LOST. /// RADIO SILENCE ON 2026-08-19. SECTOR ASSUMED LOST. /// RADIO SILENCE ON 2026-08-20. SECTOR ASSUMED LOST. /// NO DEFENSIVE ACTION TAKEN ON 2026-08-21. WALKERS ROAM FREE. /// CLOSE CALL ON 2026-08-22. PERIMETER BARELY SECURED. /// MAYDAY! BARRICADES BREACHED ON 2026-08-23! /// HAND-TO-HAND COMBAT ON 2026-08-24. WE HOLD THE LINE. /// CLOSE CALL ON 2026-08-25. PERIMETER BARELY SECURED. /// HAND-TO-HAND COMBAT ON 2026-08-26. WE HOLD THE LINE. /// ALL HOSTILES NEUTRALIZED. PATROLLING THE BORDERS. ///
         </text>
     </g>
     </svg>
