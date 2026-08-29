@@ -221,10 +221,10 @@
 <line x1="0" y1="732" x2="980" y2="732" class="scanline" />
 <line x1="0" y1="736" x2="980" y2="736" class="scanline" />
 <text x="25" y="40" class="text-neon text-title">ACHEXUS SURVIVAL SYSTEM [CLASSIC]</text>
-<text x="25" y="75" class="text-neon text-info">SURVIVAL DAY : 6</text>
+<text x="25" y="75" class="text-neon text-info">SURVIVAL DAY : 7</text>
 <text x="25" y="95" class="text-neon text-info">RANK         : SCAVENGER (LVL 13)</text>
-<text x="450" y="75" class="text-neon text-info">TOTAL XP     : 95 XP</text>
-<text x="450" y="95" class="text-neon text-info">STATUS       : 11 CLEARED / 12 INVADED</text>
+<text x="450" y="75" class="text-neon text-info">TOTAL XP     : 96 XP</text>
+<text x="450" y="95" class="text-neon text-info">STATUS       : 11 CLEARED / 13 INVADED</text>
 <rect x="25" y="115" width="930" height="30" class="intel-panel" />
 <text x="35" y="135" class="text-neon text-info">TODAY INTEL | INCOMING ZOMBIES: 4 | ELIMINATED: 0 | STATUS: <tspan class="text-status">CRITICAL (EN ROUTE)</tspan></text>
 <rect x="25" y="165" width="20" height="20" class="past-0" />
@@ -596,8 +596,8 @@
 <rect x="625" y="381" width="20" height="20" class="game-survived-2" />
 <rect x="625" y="405" width="20" height="20" class="game-survived-1" />
 <rect x="625" y="429" width="20" height="20" class="game-survived-4" />
-<rect x="625" y="453" width="20" height="20" class="game-invaded-2 current-day" />
-<rect x="625" y="477" width="20" height="20" class="fog-of-war" />
+<rect x="625" y="453" width="20" height="20" class="game-invaded-1" />
+<rect x="625" y="477" width="20" height="20" class="game-invaded-2 current-day" />
 <rect x="649" y="333" width="20" height="20" class="fog-of-war" />
 <rect x="649" y="357" width="20" height="20" class="fog-of-war" />
 <rect x="649" y="381" width="20" height="20" class="fog-of-war" />
@@ -678,7 +678,7 @@
 <text x="710" y="558" class="text-dim text-medal">🛡️ VANGUARD</text>
 <text x="710" y="575" class="text-dim text-medal">[LOCKED: LVL 75]</text>
 <text x="25" y="625" class="text-neon text-info">SYSTEM UPGRADE PROGRESS</text>
-<text x="951" y="625" class="text-neon text-info" text-anchor="end">4 / 14 XP TO LVL 14</text>
+<text x="951" y="625" class="text-neon text-info" text-anchor="end">5 / 14 XP TO LVL 14</text>
 <rect x="25" y="632" width="926" height="20" fill="none" stroke="#1a4d1a" stroke-width="1.5" />
 <rect x="27" y="635" width="10" height="14" fill="#39ff14" />
 <rect x="39" y="635" width="10" height="14" fill="#39ff14" />
@@ -701,13 +701,19 @@
 <rect x="243" y="635" width="10" height="14" fill="#39ff14" />
 <rect x="255" y="635" width="10" height="14" fill="#39ff14" />
 <rect x="267" y="635" width="10" height="14" fill="#39ff14" />
-<rect x="279" y="635" width="10" height="14" fill="#39ff14">
+<rect x="279" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="291" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="303" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="315" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="327" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="339" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="351" y="635" width="10" height="14" fill="#39ff14">
     <animate attributeName="opacity" values="1;0.2;1" dur="0.8s" repeatCount="indefinite" />
 </rect>
 
         <text y="685" class="text-neon text-info">
-            <animate attributeName="x" from="980" to="-7816" dur="48s" repeatCount="indefinite" />
-            MAYDAY! BARRICADES BREACHED ON 2026-08-13! /// CLOSE CALL ON 2026-08-14. PERIMETER BARELY SECURED. /// TARGET PRACTICE AT SECTOR 2026-08-15. OVERWHELMING FIREPOWER USED. /// THREAT NEUTRALIZED ON 2026-08-16. NO CASUALTIES REPORTED. /// TARGET PRACTICE AT SECTOR 2026-08-17. OVERWHELMING FIREPOWER USED. /// NO DEFENSIVE ACTION TAKEN ON 2026-08-18. WALKERS ROAM FREE. /// RADIO SILENCE ON 2026-08-19. SECTOR ASSUMED LOST. /// RADIO SILENCE ON 2026-08-20. SECTOR ASSUMED LOST. /// NO DEFENSIVE ACTION TAKEN ON 2026-08-21. WALKERS ROAM FREE. /// CLOSE CALL ON 2026-08-22. PERIMETER BARELY SECURED. /// SECTOR 2026-08-23 OVERRUN. WE TOOK DOWN 2 BUT IT WAS NOT ENOUGH. /// HAND-TO-HAND COMBAT ON 2026-08-24. WE HOLD THE LINE. /// CLOSE CALL ON 2026-08-25. PERIMETER BARELY SECURED. /// HAND-TO-HAND COMBAT ON 2026-08-26. WE HOLD THE LINE. /// TARGET PRACTICE AT SECTOR 2026-08-27. OVERWHELMING FIREPOWER USED. /// RADAR CONTACT ON THE MOVE. WE NEED BACKUP AT THE NEXT CROSSROAD. ///
+            <animate attributeName="x" from="980" to="-7496" dur="46s" repeatCount="indefinite" />
+            CLOSE CALL ON 2026-08-14. PERIMETER BARELY SECURED. /// THREAT NEUTRALIZED ON 2026-08-15. NO CASUALTIES REPORTED. /// TARGET PRACTICE AT SECTOR 2026-08-16. OVERWHELMING FIREPOWER USED. /// TARGET PRACTICE AT SECTOR 2026-08-17. OVERWHELMING FIREPOWER USED. /// RADIO SILENCE ON 2026-08-18. SECTOR ASSUMED LOST. /// RADIO SILENCE ON 2026-08-19. SECTOR ASSUMED LOST. /// RADIO SILENCE ON 2026-08-20. SECTOR ASSUMED LOST. /// RADIO SILENCE ON 2026-08-21. SECTOR ASSUMED LOST. /// CLOSE CALL ON 2026-08-22. PERIMETER BARELY SECURED. /// SECTOR 2026-08-23 OVERRUN. WE TOOK DOWN 2 BUT IT WAS NOT ENOUGH. /// HAND-TO-HAND COMBAT ON 2026-08-24. WE HOLD THE LINE. /// CLOSE CALL ON 2026-08-25. PERIMETER BARELY SECURED. /// HAND-TO-HAND COMBAT ON 2026-08-26. WE HOLD THE LINE. /// THREAT NEUTRALIZED ON 2026-08-27. NO CASUALTIES REPORTED. /// MAYDAY! BARRICADES BREACHED ON 2026-08-28! /// SQUAD EN ROUTE. MULTIPLE BOGEYS DETECTED ON SCANNERS. ///
         </text>
     </g>
     </svg>
