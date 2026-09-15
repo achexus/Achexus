@@ -221,12 +221,12 @@
 <line x1="0" y1="732" x2="980" y2="732" class="scanline" />
 <line x1="0" y1="736" x2="980" y2="736" class="scanline" />
 <text x="25" y="40" class="text-neon text-title">ACHEXUS SURVIVAL SYSTEM [CLASSIC]</text>
-<text x="25" y="75" class="text-neon text-info">SURVIVAL DAY : 23</text>
-<text x="25" y="95" class="text-neon text-info">RANK         : SCAVENGER (LVL 13)</text>
-<text x="450" y="75" class="text-neon text-info">TOTAL XP     : 95 XP</text>
-<text x="450" y="95" class="text-neon text-info">STATUS       : 15 CLEARED / 15 INVADED</text>
+<text x="25" y="75" class="text-neon text-info">SURVIVAL DAY : 24</text>
+<text x="25" y="95" class="text-neon text-info">RANK         : SCAVENGER (LVL 12)</text>
+<text x="450" y="75" class="text-neon text-info">TOTAL XP     : 87 XP</text>
+<text x="450" y="95" class="text-neon text-info">STATUS       : 14 CLEARED / 16 INVADED</text>
 <rect x="25" y="115" width="930" height="30" class="intel-panel" />
-<text x="35" y="135" class="text-neon text-info">TODAY INTEL | INCOMING ZOMBIES: 3 | ELIMINATED: 0 | STATUS: <tspan class="text-status">CRITICAL (EN ROUTE)</tspan></text>
+<text x="35" y="135" class="text-neon text-info">TODAY INTEL | INCOMING ZOMBIES: 2 | ELIMINATED: 0 | STATUS: <tspan class="text-status">CRITICAL (EN ROUTE)</tspan></text>
 <rect x="25" y="165" width="20" height="20" class="past-0" />
 <rect x="25" y="189" width="20" height="20" class="past-0" />
 <rect x="25" y="213" width="20" height="20" class="past-0" />
@@ -562,7 +562,7 @@
 <rect x="505" y="405" width="20" height="20" class="past-0" />
 <rect x="505" y="429" width="20" height="20" class="past-1" />
 <rect x="505" y="453" width="20" height="20" class="past-1" />
-<rect x="505" y="477" width="20" height="20" class="game-survived-4" />
+<rect x="505" y="477" width="20" height="20" class="past-4" />
 <rect x="529" y="333" width="20" height="20" class="game-survived-4" />
 <rect x="529" y="357" width="20" height="20" class="game-survived-4" />
 <rect x="529" y="381" width="20" height="20" class="game-invaded-2" />
@@ -592,8 +592,8 @@
 <rect x="601" y="453" width="20" height="20" class="game-survived-1" />
 <rect x="601" y="477" width="20" height="20" class="game-invaded-1" />
 <rect x="625" y="333" width="20" height="20" class="game-invaded-1" />
-<rect x="625" y="357" width="20" height="20" class="game-invaded-2 current-day" />
-<rect x="625" y="381" width="20" height="20" class="fog-of-war" />
+<rect x="625" y="357" width="20" height="20" class="game-invaded-1" />
+<rect x="625" y="381" width="20" height="20" class="game-invaded-2 current-day" />
 <rect x="625" y="405" width="20" height="20" class="fog-of-war" />
 <rect x="625" y="429" width="20" height="20" class="fog-of-war" />
 <rect x="625" y="453" width="20" height="20" class="fog-of-war" />
@@ -656,10 +656,6 @@
             <animate attributeName="opacity" values="0;1;0" dur="3s" begin="0.7s" repeatCount="indefinite" />
         </circle>
         
-        <circle cx="807.5" cy="477" r="4" fill="#d92525">
-            <animate attributeName="opacity" values="0;1;0" dur="3s" begin="1.4s" repeatCount="indefinite" />
-        </circle>
-        
     <text x="25" y="525" class="text-neon text-medal">RANK PROGRESSION [ACTIVE &amp; UPCOMING]</text>
 <rect x="25" y="540" width="200" height="45" rx="3" ry="3" class="box-medal-earned" />
 <text x="35" y="558" class="text-neon text-medal">▲ SCAVENGER</text>
@@ -674,7 +670,7 @@
 <text x="710" y="558" class="text-dim text-medal">🛡️ VANGUARD</text>
 <text x="710" y="575" class="text-dim text-medal">[LOCKED: LVL 75]</text>
 <text x="25" y="625" class="text-neon text-info">SYSTEM UPGRADE PROGRESS</text>
-<text x="951" y="625" class="text-neon text-info" text-anchor="end">4 / 14 XP TO LVL 14</text>
+<text x="951" y="625" class="text-neon text-info" text-anchor="end">9 / 13 XP TO LVL 13</text>
 <rect x="25" y="632" width="926" height="20" fill="none" stroke="#1a4d1a" stroke-width="1.5" />
 <rect x="27" y="635" width="10" height="14" fill="#39ff14" />
 <rect x="39" y="635" width="10" height="14" fill="#39ff14" />
@@ -697,13 +693,44 @@
 <rect x="243" y="635" width="10" height="14" fill="#39ff14" />
 <rect x="255" y="635" width="10" height="14" fill="#39ff14" />
 <rect x="267" y="635" width="10" height="14" fill="#39ff14" />
-<rect x="279" y="635" width="10" height="14" fill="#39ff14">
+<rect x="279" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="291" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="303" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="315" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="327" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="339" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="351" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="363" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="375" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="387" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="399" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="411" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="423" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="435" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="447" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="459" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="471" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="483" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="495" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="507" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="519" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="531" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="543" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="555" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="567" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="579" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="591" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="603" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="615" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="627" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="639" y="635" width="10" height="14" fill="#39ff14" />
+<rect x="651" y="635" width="10" height="14" fill="#39ff14">
     <animate attributeName="opacity" values="1;0.2;1" dur="0.8s" repeatCount="indefinite" />
 </rect>
 
         <text y="685" class="text-neon text-info">
-            <animate attributeName="x" from="980" to="-7344" dur="45s" repeatCount="indefinite" />
-            HAND-TO-HAND COMBAT ON 2026-08-30. WE HOLD THE LINE. /// SECTOR 2026-08-31 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// MAYDAY! BARRICADES BREACHED ON 2026-09-01! /// HAND-TO-HAND COMBAT ON 2026-09-02. WE HOLD THE LINE. /// HAND-TO-HAND COMBAT ON 2026-09-03. WE HOLD THE LINE. /// SECTOR 2026-09-04 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// SECTOR 2026-09-05 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// CLOSE CALL ON 2026-09-06. PERIMETER BARELY SECURED. /// SECTOR 2026-09-07 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// MAYDAY! BARRICADES BREACHED ON 2026-09-08! /// HAND-TO-HAND COMBAT ON 2026-09-09. WE HOLD THE LINE. /// CLOSE CALL ON 2026-09-10. PERIMETER BARELY SECURED. /// HAND-TO-HAND COMBAT ON 2026-09-11. WE HOLD THE LINE. /// MAYDAY! BARRICADES BREACHED ON 2026-09-12! /// MAYDAY! BARRICADES BREACHED ON 2026-09-13! /// SQUAD EN ROUTE. MULTIPLE BOGEYS DETECTED ON SCANNERS. ///
+            <animate attributeName="x" from="980" to="-7440" dur="46s" repeatCount="indefinite" />
+            SECTOR 2026-08-31 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// MAYDAY! BARRICADES BREACHED ON 2026-09-01! /// HAND-TO-HAND COMBAT ON 2026-09-02. WE HOLD THE LINE. /// HAND-TO-HAND COMBAT ON 2026-09-03. WE HOLD THE LINE. /// SECTOR 2026-09-04 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// SECTOR 2026-09-05 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// CLOSE CALL ON 2026-09-06. PERIMETER BARELY SECURED. /// SECTOR 2026-09-07 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// SECTOR 2026-09-08 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// HAND-TO-HAND COMBAT ON 2026-09-09. WE HOLD THE LINE. /// CLOSE CALL ON 2026-09-10. PERIMETER BARELY SECURED. /// HAND-TO-HAND COMBAT ON 2026-09-11. WE HOLD THE LINE. /// MAYDAY! BARRICADES BREACHED ON 2026-09-12! /// MAYDAY! BARRICADES BREACHED ON 2026-09-13! /// MAYDAY! BARRICADES BREACHED ON 2026-09-14! /// SQUAD EN ROUTE. MULTIPLE BOGEYS DETECTED ON SCANNERS. ///
         </text>
     </g>
     </svg>
