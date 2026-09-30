@@ -221,12 +221,12 @@
 <line x1="0" y1="732" x2="980" y2="732" class="scanline" />
 <line x1="0" y1="736" x2="980" y2="736" class="scanline" />
 <text x="25" y="40" class="text-neon text-title">ACHEXUS SURVIVAL SYSTEM [CLASSIC]</text>
-<text x="25" y="75" class="text-neon text-info">SURVIVAL DAY : 38</text>
+<text x="25" y="75" class="text-neon text-info">SURVIVAL DAY : 39</text>
 <text x="25" y="95" class="text-neon text-info">RANK         : UNRANKED (LVL 7)</text>
 <text x="450" y="75" class="text-neon text-info">TOTAL XP     : 31 XP</text>
-<text x="450" y="95" class="text-neon text-info">STATUS       : 13 CLEARED / 17 INVADED</text>
+<text x="450" y="95" class="text-neon text-info">STATUS       : 12 CLEARED / 18 INVADED</text>
 <rect x="25" y="115" width="930" height="30" class="intel-panel" />
-<text x="35" y="135" class="text-neon text-info">TODAY INTEL | INCOMING ZOMBIES: 4 | ELIMINATED: 0 | STATUS: <tspan class="text-status">CRITICAL (EN ROUTE)</tspan></text>
+<text x="35" y="135" class="text-neon text-info">TODAY INTEL | INCOMING ZOMBIES: 3 | ELIMINATED: 0 | STATUS: <tspan class="text-status">CRITICAL (EN ROUTE)</tspan></text>
 <rect x="25" y="165" width="20" height="20" class="past-0" />
 <rect x="25" y="189" width="20" height="20" class="past-0" />
 <rect x="25" y="213" width="20" height="20" class="past-0" />
@@ -563,7 +563,7 @@
 <rect x="505" y="429" width="20" height="20" class="past-4" />
 <rect x="505" y="453" width="20" height="20" class="past-1" />
 <rect x="505" y="477" width="20" height="20" class="past-1" />
-<rect x="529" y="333" width="20" height="20" class="game-survived-1" />
+<rect x="529" y="333" width="20" height="20" class="past-1" />
 <rect x="529" y="357" width="20" height="20" class="game-invaded-1" />
 <rect x="529" y="381" width="20" height="20" class="game-invaded-1" />
 <rect x="529" y="405" width="20" height="20" class="game-survived-2" />
@@ -593,8 +593,8 @@
 <rect x="601" y="477" width="20" height="20" class="game-survived-1" />
 <rect x="625" y="333" width="20" height="20" class="game-invaded-1" />
 <rect x="625" y="357" width="20" height="20" class="game-invaded-1" />
-<rect x="625" y="381" width="20" height="20" class="game-invaded-2 current-day" />
-<rect x="625" y="405" width="20" height="20" class="fog-of-war" />
+<rect x="625" y="381" width="20" height="20" class="game-invaded-1" />
+<rect x="625" y="405" width="20" height="20" class="game-invaded-2 current-day" />
 <rect x="625" y="429" width="20" height="20" class="fog-of-war" />
 <rect x="625" y="453" width="20" height="20" class="fog-of-war" />
 <rect x="625" y="477" width="20" height="20" class="fog-of-war" />
@@ -660,10 +660,6 @@
             <animate attributeName="opacity" values="0;1;0" dur="3s" begin="1.4s" repeatCount="indefinite" />
         </circle>
         
-        <circle cx="867.5" cy="407" r="4" fill="#d92525">
-            <animate attributeName="opacity" values="0;1;0" dur="3s" begin="2.0999999999999996s" repeatCount="indefinite" />
-        </circle>
-        
     <text x="25" y="525" class="text-neon text-medal">RANK PROGRESSION [ACTIVE &amp; UPCOMING]</text>
 <rect x="25" y="540" width="200" height="45" rx="3" ry="3" class="box-medal-locked" />
 <text x="35" y="558" class="text-dim text-medal">▲ SCAVENGER</text>
@@ -713,8 +709,8 @@
 </rect>
 
         <text y="685" class="text-neon text-info">
-            <animate attributeName="x" from="980" to="-7872" dur="49s" repeatCount="indefinite" />
-            SECTOR 2026-09-14 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// MAYDAY! BARRICADES BREACHED ON 2026-09-15! /// HAND-TO-HAND COMBAT ON 2026-09-16. WE HOLD THE LINE. /// SECTOR 2026-09-17 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// SECTOR 2026-09-18 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// HAND-TO-HAND COMBAT ON 2026-09-19. WE HOLD THE LINE. /// MAYDAY! BARRICADES BREACHED ON 2026-09-20! /// CLOSE CALL ON 2026-09-21. PERIMETER BARELY SECURED. /// CLOSE CALL ON 2026-09-22. PERIMETER BARELY SECURED. /// SECTOR 2026-09-23 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// SECTOR 2026-09-24 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// HAND-TO-HAND COMBAT ON 2026-09-25. WE HOLD THE LINE. /// CLOSE CALL ON 2026-09-26. PERIMETER BARELY SECURED. /// SECTOR 2026-09-27 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// SECTOR 2026-09-28 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// RADAR CONTACT ON THE MOVE. WE NEED BACKUP AT THE NEXT CROSSROAD. ///
+            <animate attributeName="x" from="980" to="-7792" dur="48s" repeatCount="indefinite" />
+            SECTOR 2026-09-15 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// CLOSE CALL ON 2026-09-16. PERIMETER BARELY SECURED. /// SECTOR 2026-09-17 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// MAYDAY! BARRICADES BREACHED ON 2026-09-18! /// HAND-TO-HAND COMBAT ON 2026-09-19. WE HOLD THE LINE. /// SECTOR 2026-09-20 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// HAND-TO-HAND COMBAT ON 2026-09-21. WE HOLD THE LINE. /// HAND-TO-HAND COMBAT ON 2026-09-22. WE HOLD THE LINE. /// SECTOR 2026-09-23 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// SECTOR 2026-09-24 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// HAND-TO-HAND COMBAT ON 2026-09-25. WE HOLD THE LINE. /// CLOSE CALL ON 2026-09-26. PERIMETER BARELY SECURED. /// MAYDAY! BARRICADES BREACHED ON 2026-09-27! /// SECTOR 2026-09-28 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// SECTOR 2026-09-29 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// SQUAD EN ROUTE. MULTIPLE BOGEYS DETECTED ON SCANNERS. ///
         </text>
     </g>
     </svg>
