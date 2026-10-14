@@ -221,7 +221,7 @@
 <line x1="0" y1="732" x2="980" y2="732" class="scanline" />
 <line x1="0" y1="736" x2="980" y2="736" class="scanline" />
 <text x="25" y="40" class="text-neon text-title">ACHEXUS SURVIVAL SYSTEM [CLASSIC]</text>
-<text x="25" y="75" class="text-neon text-info">SURVIVAL DAY : 52</text>
+<text x="25" y="75" class="text-neon text-info">SURVIVAL DAY : 53</text>
 <text x="25" y="95" class="text-neon text-info">RANK         : UNRANKED (LVL 7)</text>
 <text x="450" y="75" class="text-neon text-info">TOTAL XP     : 30 XP</text>
 <text x="450" y="95" class="text-neon text-info">STATUS       : 11 CLEARED / 19 INVADED</text>
@@ -563,7 +563,7 @@
 <rect x="505" y="429" width="20" height="20" class="past-1" />
 <rect x="505" y="453" width="20" height="20" class="past-1" />
 <rect x="505" y="477" width="20" height="20" class="past-1" />
-<rect x="529" y="333" width="20" height="20" class="game-invaded-1" />
+<rect x="529" y="333" width="20" height="20" class="past-1" />
 <rect x="529" y="357" width="20" height="20" class="game-invaded-1" />
 <rect x="529" y="381" width="20" height="20" class="game-invaded-1" />
 <rect x="529" y="405" width="20" height="20" class="game-survived-1" />
@@ -593,8 +593,8 @@
 <rect x="601" y="477" width="20" height="20" class="game-survived-1" />
 <rect x="625" y="333" width="20" height="20" class="game-invaded-1" />
 <rect x="625" y="357" width="20" height="20" class="game-survived-1" />
-<rect x="625" y="381" width="20" height="20" class="game-invaded-2 current-day" />
-<rect x="625" y="405" width="20" height="20" class="fog-of-war" />
+<rect x="625" y="381" width="20" height="20" class="game-invaded-1" />
+<rect x="625" y="405" width="20" height="20" class="game-invaded-2 current-day" />
 <rect x="625" y="429" width="20" height="20" class="fog-of-war" />
 <rect x="625" y="453" width="20" height="20" class="fog-of-war" />
 <rect x="625" y="477" width="20" height="20" class="fog-of-war" />
@@ -700,7 +700,7 @@
 
         <text y="685" class="text-neon text-info">
             <animate attributeName="x" from="980" to="-7360" dur="46s" repeatCount="indefinite" />
-            SECTOR 2026-09-28 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// SECTOR 2026-09-29 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// MAYDAY! BARRICADES BREACHED ON 2026-09-30! /// CLOSE CALL ON 2026-10-01. PERIMETER BARELY SECURED. /// MAYDAY! BARRICADES BREACHED ON 2026-10-02! /// HAND-TO-HAND COMBAT ON 2026-10-03. WE HOLD THE LINE. /// MAYDAY! BARRICADES BREACHED ON 2026-10-04! /// SECTOR 2026-10-05 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// MAYDAY! BARRICADES BREACHED ON 2026-10-06! /// CLOSE CALL ON 2026-10-07. PERIMETER BARELY SECURED. /// SECTOR 2026-10-08 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// MAYDAY! BARRICADES BREACHED ON 2026-10-09! /// HAND-TO-HAND COMBAT ON 2026-10-10. WE HOLD THE LINE. /// SECTOR 2026-10-11 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// HAND-TO-HAND COMBAT ON 2026-10-12. WE HOLD THE LINE. /// SQUAD EN ROUTE. MULTIPLE BOGEYS DETECTED ON SCANNERS. ///
+            SECTOR 2026-09-29 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// MAYDAY! BARRICADES BREACHED ON 2026-09-30! /// HAND-TO-HAND COMBAT ON 2026-10-01. WE HOLD THE LINE. /// MAYDAY! BARRICADES BREACHED ON 2026-10-02! /// CLOSE CALL ON 2026-10-03. PERIMETER BARELY SECURED. /// MAYDAY! BARRICADES BREACHED ON 2026-10-04! /// MAYDAY! BARRICADES BREACHED ON 2026-10-05! /// SECTOR 2026-10-06 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// HAND-TO-HAND COMBAT ON 2026-10-07. WE HOLD THE LINE. /// SECTOR 2026-10-08 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// MAYDAY! BARRICADES BREACHED ON 2026-10-09! /// HAND-TO-HAND COMBAT ON 2026-10-10. WE HOLD THE LINE. /// SECTOR 2026-10-11 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// CLOSE CALL ON 2026-10-12. PERIMETER BARELY SECURED. /// SECTOR 2026-10-13 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// SQUAD EN ROUTE. MULTIPLE BOGEYS DETECTED ON SCANNERS. ///
         </text>
     </g>
     </svg>
