@@ -221,7 +221,7 @@
 <line x1="0" y1="732" x2="980" y2="732" class="scanline" />
 <line x1="0" y1="736" x2="980" y2="736" class="scanline" />
 <text x="25" y="40" class="text-neon text-title">ACHEXUS SURVIVAL SYSTEM [CLASSIC]</text>
-<text x="25" y="75" class="text-neon text-info">SURVIVAL DAY : 72</text>
+<text x="25" y="75" class="text-neon text-info">SURVIVAL DAY : 73</text>
 <text x="25" y="95" class="text-neon text-info">RANK         : UNRANKED (LVL 7)</text>
 <text x="450" y="75" class="text-neon text-info">TOTAL XP     : 30 XP</text>
 <text x="450" y="95" class="text-neon text-info">STATUS       : 7 CLEARED / 23 INVADED</text>
@@ -562,7 +562,7 @@
 <rect x="505" y="405" width="20" height="20" class="past-1" />
 <rect x="505" y="429" width="20" height="20" class="past-1" />
 <rect x="505" y="453" width="20" height="20" class="past-1" />
-<rect x="505" y="477" width="20" height="20" class="game-survived-1" />
+<rect x="505" y="477" width="20" height="20" class="past-1" />
 <rect x="529" y="333" width="20" height="20" class="game-invaded-1" />
 <rect x="529" y="357" width="20" height="20" class="game-invaded-1" />
 <rect x="529" y="381" width="20" height="20" class="game-invaded-1" />
@@ -592,8 +592,8 @@
 <rect x="601" y="453" width="20" height="20" class="game-invaded-1" />
 <rect x="601" y="477" width="20" height="20" class="game-invaded-1" />
 <rect x="625" y="333" width="20" height="20" class="game-invaded-1" />
-<rect x="625" y="357" width="20" height="20" class="game-invaded-2 current-day" />
-<rect x="625" y="381" width="20" height="20" class="fog-of-war" />
+<rect x="625" y="357" width="20" height="20" class="game-survived-1" />
+<rect x="625" y="381" width="20" height="20" class="game-invaded-2 current-day" />
 <rect x="625" y="405" width="20" height="20" class="fog-of-war" />
 <rect x="625" y="429" width="20" height="20" class="fog-of-war" />
 <rect x="625" y="453" width="20" height="20" class="fog-of-war" />
@@ -691,8 +691,8 @@
 </rect>
 
         <text y="685" class="text-neon text-info">
-            <animate attributeName="x" from="980" to="-6944" dur="43s" repeatCount="indefinite" />
-            SECTOR 2026-10-18 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// CLOSE CALL ON 2026-10-19. PERIMETER BARELY SECURED. /// MAYDAY! BARRICADES BREACHED ON 2026-10-20! /// MAYDAY! BARRICADES BREACHED ON 2026-10-21! /// MAYDAY! BARRICADES BREACHED ON 2026-10-22! /// SECTOR 2026-10-23 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// MAYDAY! BARRICADES BREACHED ON 2026-10-24! /// MAYDAY! BARRICADES BREACHED ON 2026-10-25! /// MAYDAY! BARRICADES BREACHED ON 2026-10-26! /// HAND-TO-HAND COMBAT ON 2026-10-27. WE HOLD THE LINE. /// HAND-TO-HAND COMBAT ON 2026-10-28. WE HOLD THE LINE. /// MAYDAY! BARRICADES BREACHED ON 2026-10-29! /// SECTOR 2026-10-30 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// MAYDAY! BARRICADES BREACHED ON 2026-10-31! /// MAYDAY! BARRICADES BREACHED ON 2026-11-01! /// RADAR CONTACT ON THE MOVE. WE NEED BACKUP AT THE NEXT CROSSROAD. ///
+            <animate attributeName="x" from="980" to="-7456" dur="46s" repeatCount="indefinite" />
+            HAND-TO-HAND COMBAT ON 2026-10-19. WE HOLD THE LINE. /// SECTOR 2026-10-20 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// SECTOR 2026-10-21 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// MAYDAY! BARRICADES BREACHED ON 2026-10-22! /// MAYDAY! BARRICADES BREACHED ON 2026-10-23! /// SECTOR 2026-10-24 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// MAYDAY! BARRICADES BREACHED ON 2026-10-25! /// MAYDAY! BARRICADES BREACHED ON 2026-10-26! /// CLOSE CALL ON 2026-10-27. PERIMETER BARELY SECURED. /// HAND-TO-HAND COMBAT ON 2026-10-28. WE HOLD THE LINE. /// SECTOR 2026-10-29 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// MAYDAY! BARRICADES BREACHED ON 2026-10-30! /// SECTOR 2026-10-31 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// SECTOR 2026-11-01 OVERRUN. WE TOOK DOWN 1 BUT IT WAS NOT ENOUGH. /// CLOSE CALL ON 2026-11-02. PERIMETER BARELY SECURED. /// SQUAD EN ROUTE. MULTIPLE BOGEYS DETECTED ON SCANNERS. ///
         </text>
     </g>
     </svg>
